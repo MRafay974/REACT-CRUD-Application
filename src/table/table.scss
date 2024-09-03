@@ -1,0 +1,31 @@
+.table {
+  margin-top: 11px;
+  margin-bottom: 50px;
+  .datagrid {
+    margin-right: 12%;
+    margin-left: 12%;
+    border: 1px solid black;
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    .Edit {
+      padding: 2px 12px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px solid rgba(0, 0, 139, 0.596);
+      cursor: pointer;
+    }
+
+    .deleteButton {
+      padding: 1px 5px;
+      border-radius: 5px;
+      color: crimson;
+      border: 1px solid rgba(220, 20, 60, 0.6);
+      cursor: pointer;
+    }
+  }
+}
